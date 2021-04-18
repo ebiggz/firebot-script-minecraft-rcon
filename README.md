@@ -8,6 +8,8 @@
 4. Restart Firebot
 5. Add a **Send Minecraft RCON Command** effect to anything you want
 
+> Note: Firebot will need to be restarted if you change any of the settings (host/port/password)
+
 ## MC Server Setup
 
 - Ensure the server has RCON enabled in _server.properties_ (`enable-rcon=true`)
