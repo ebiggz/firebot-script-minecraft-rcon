@@ -1,8 +1,8 @@
 {
-  "name": "firebot-custom-script-starter",
-  "scriptOutputName": "starterScript",
+  "name": "firebot-script-minecraft-rcon",
+  "scriptOutputName": "mcRcon",
   "version": "1.0.0",
-  "description": "A starter Firebot custom script",
+  "description": "Connects to a minecraft RCON server and allows you to send commands",
   "main": "",
   "scripts": {
     "build": "webpack",
@@ -19,9 +19,11 @@
     "terser-webpack-plugin": "^4.2.3",
     "ts-jest": "^26.4.4",
     "ts-loader": "^8.0.7",
-    "typescript": "^4.0.5",
+    "typescript": "^4.2.4",
     "webpack": "^4.44.2",
     "webpack-cli": "^4.1.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "rcon-client": "^4.2.3"
+  }
 }
