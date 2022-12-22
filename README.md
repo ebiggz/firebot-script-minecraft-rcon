@@ -10,8 +10,11 @@
 ### Firebot Setup
 1. Download the latest **mcRcon.js** file from [Releases](https://github.com/ebiggz/firebot-script-minecraft-rcon/releases)
 2. Add the **mcRcon.js** as a startup script in Firebot (_Settings_ > _Scripts_ > _Startup Scripts_)
-3. Fill out host _(MC server ip address or url)_, port _(found in server.properties, default 25575)_, and password _(set in server.properties)_
-4. Add a **Send Minecraft RCON Command** effect to anything you want
+3. Fill out the script settings:
+    - host _(MC server ip address or url)_
+    - port _(found in server.properties, default is 25575)_
+    - password _(set in server.properties)_
+4. Add a **Send Minecraft RCON Command** effect to anything you want!
 
 ## Developers
 
